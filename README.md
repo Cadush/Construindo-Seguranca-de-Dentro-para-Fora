@@ -32,22 +32,40 @@ Reconhecimento com NMAP:
 
 
 O Enum4linux é uma ferramenta de linha de comando baseada em Perl, amplamente utilizada em auditorias de segurança para enumerar informações de sistemas Windows via SMB, incluindo usuários, grupos, compartilhamentos e dados do serviço SAM (Security Account Manager).
+
+
 <img width="650" height="456" alt="image" src="https://github.com/user-attachments/assets/0f5f49f1-8388-4a05-874c-c76fe5fcd9aa" />
 
 
 
 
+
+
+
 O ldapsearch é uma ferramenta de linha de comando usada para realizar consultas em serviços LDAP, possibilitando a coleta e enumeração de informações de um domínio, como contas de usuários, grupos, atributos e estrutura do diretório.
+
+
 <img width="581" height="415" alt="image" src="https://github.com/user-attachments/assets/541bbe52-2201-45b9-a772-fa7427f7c71a" />
 
 
+
+
+
+
+
 Iniciamos o processo de validação de contas de usuários válidos por meio das ferramentas da suíte Impacket. 
+
+
+
 <img width="1314" height="323" alt="image" src="https://github.com/user-attachments/assets/a93e4510-63da-4dfc-8a93-2dece28ece14" />
 
 
 
 
 Por fim, foi utilizada a ferramenta Evil-WinRM para estabelecer uma sessão remota no host alvo via WinRM.
+
+
+
 <img width="396" height="52" alt="image" src="https://github.com/user-attachments/assets/a4ed3ee6-9796-4519-a0e2-03b3c3644676" />
 
 
@@ -143,7 +161,13 @@ Recomenda-se salvar os relatórios utilizando um padrão de nomenclatura com dat
 AD-Healthcheck_empresa.local_2026-03-25.html
 AD-Healthcheck_empresa.local_2026-03-25.pdf
 Isso facilita o versionamento, rastreabilidade e comparação entre análises ao longo do tempo.
+
+ 
+ 
  <img width="925" height="490" alt="image" src="https://github.com/user-attachments/assets/0307a22f-6ef3-43cb-be28-21a2672a9e5f" />
+
+
+
 
 
 Esse painel mostra categorias de risco divididas em cores e tópicos:
